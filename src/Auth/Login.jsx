@@ -4,7 +4,9 @@ import Animated from 'react-native-reanimated';
 const Login = () => {
     return (
         <View style={[login.container]}>
-            <View style={[login.header]}></View>
+            <View style={[login.header]} className="flex-row items-center justify-between">
+                <Text className="text-red-800">Red</Text>
+            </View>
         </View>
     )
 }
